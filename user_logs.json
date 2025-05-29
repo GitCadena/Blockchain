@@ -1,0 +1,191 @@
+{"action":"click","element":"logButton","timestamp":"2024-09-29T23:42:14.016Z"}
+{"action":"custom task","taskDescription":"Limpieza de componentes","timestamp":"2024-09-29T23:42:36.113Z"}
+{"action":"custom task","taskDescription":"registro de documentos","timestamp":"2024-09-29T23:42:55.712Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T00:13:55.111Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T00:13:58.535Z"}
+{"action":"custom task","taskDescription":"Cocinar","timestamp":"2024-09-30T00:14:05.823Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T00:17:34.791Z"}
+{"action":"custom task","taskDescription":"dede","timestamp":"2024-09-30T00:18:03.855Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T01:06:28.598Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T01:06:46.519Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T06:58:00.882Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T06:58:09.578Z"}
+{"action":"custom task","taskDescription":"Bailar","timestamp":"2024-09-30T06:58:27.841Z"}
+{"action":"custom task","taskDescription":"Bailar","timestamp":"2024-09-30T06:58:31.402Z"}
+{"action":"custom task","taskDescription":"Bailar","timestamp":"2024-09-30T06:58:31.561Z"}
+{"action":"custom task","taskDescription":"Bailar","timestamp":"2024-09-30T06:58:31.713Z"}
+{"action":"custom task","taskDescription":"Bailar","timestamp":"2024-09-30T06:58:36.066Z"}
+{"action":"custom task","taskDescription":"Bailar","timestamp":"2024-09-30T06:58:45.497Z"}
+{"action":"custom task","taskDescription":"Cocinar","timestamp":"2024-09-30T06:58:58.555Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T07:01:15.714Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T07:01:17.218Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T07:01:21.242Z"}
+{"action":"custom task","taskDescription":"tarea","timestamp":"2024-09-30T07:01:30.786Z"}
+{"action":"custom task","taskDescription":"tarea","timestamp":"2024-09-30T07:01:31.730Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T07:06:50.314Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T07:09:46.505Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T07:10:15.393Z"}
+{"action":"custom task","taskDescription":"Baile","timestamp":"2024-09-30T07:10:20.850Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T07:12:18.811Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T07:12:20.267Z"}
+{"action":"custom task","taskDescription":"sfds","timestamp":"2024-09-30T07:12:22.226Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T07:14:59.530Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T07:18:06.907Z"}
+{"action":"custom task","taskDescription":"tarea","timestamp":"2024-09-30T07:18:20.026Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T07:19:20.025Z"}
+{"action":"custom task","taskDescription":"dede","timestamp":"2024-09-30T07:19:31.778Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T07:20:25.938Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T07:24:43.715Z"}
+{"action":"visit","page":"home","user":"usuario1"}
+{"action":"visit","page":"home","user":"usuario1"}
+{"user":"John Doe","action":"Login","timestamp":"2024-09-30T12:45:00Z"}
+{"user":"John Doe","action":"Login","timestamp":"2024-09-30T12:45:00Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T07:28:48.513Z"}
+{"action":"custom task","taskDescription":"Pop","timestamp":"2024-09-30T07:29:10.594Z"}
+{"action":"custom task","taskDescription":"Pop","timestamp":"2024-09-30T07:29:16.385Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T07:31:21.961Z"}
+{"action":"custom task","taskDescription":"lolo","timestamp":"2024-09-30T07:31:26.217Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T07:38:48.481Z"}
+{"action":"custom task","taskDescription":"1515","timestamp":"2024-09-30T07:38:56.089Z"}
+{"action":"entrada","element":"logInteraction1","timestamp":"2024-09-30T07:39:00.857Z"}
+{"action":"salida","element":"logInteraction2","timestamp":"2024-09-30T07:39:05.026Z"}
+{"action":"reunión","element":"logInteraction4","timestamp":"2024-09-30T07:39:07.130Z"}
+{"action":"proyecto iniciado","element":"logInteraction5","timestamp":"2024-09-30T07:39:08.817Z"}
+{"action":"proyecto finalizado","element":"logInteraction6","timestamp":"2024-09-30T07:39:09.777Z"}
+{"action":"custom task","taskDescription":"pop","timestamp":"2024-09-30T07:48:12.977Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T07:52:26.954Z"}
+{"action":"custom task","taskDescription":"Lal","timestamp":"2024-09-30T07:52:33.313Z"}
+{"action":"entrada","element":"logInteraction1","timestamp":"2024-09-30T07:52:41.353Z"}
+{"action":"salida","element":"logInteraction2","timestamp":"2024-09-30T07:52:42.962Z"}
+{"action":"pausa","element":"logInteraction3","timestamp":"2024-09-30T07:52:44.794Z"}
+{"action":"proyecto iniciado","element":"logInteraction5","timestamp":"2024-09-30T07:52:46.546Z"}
+{"action":"reunión","element":"logInteraction4","timestamp":"2024-09-30T07:52:47.665Z"}
+{"action":"proyecto finalizado","element":"logInteraction6","timestamp":"2024-09-30T07:52:48.962Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T08:30:51.129Z"}
+{"action":"custom task","taskDescription":"Merengue","timestamp":"2024-09-30T09:40:07.240Z"}
+{"action":"salida","element":"logInteraction2","timestamp":"2024-09-30T09:40:18.961Z"}
+{"action":"pausa","element":"logInteraction3","timestamp":"2024-09-30T09:40:20.120Z"}
+{"action":"reunión","element":"logInteraction4","timestamp":"2024-09-30T09:40:20.943Z"}
+{"action":"proyecto iniciado","element":"logInteraction5","timestamp":"2024-09-30T09:40:21.431Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T09:45:05.752Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T09:45:16.880Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T09:45:18.232Z"}
+{"action":"custom task","taskDescription":"tarea","timestamp":"2024-09-30T09:46:43.384Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T12:41:03.128Z"}
+{"action":"custom task","taskDescription":"pop","timestamp":"2024-09-30T12:41:07.126Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T14:19:01.261Z"}
+{"action":"custom task","taskDescription":"hriuhfisdf","timestamp":"2024-09-30T14:19:05.691Z"}
+{"action":"click","element":"logButton","timestamp":"2024-09-30T15:17:10.185Z"}
+{"action":"click","element":"logButton","timestamp":"2024-10-03T19:58:32.756Z"}
+{"action":"click","element":"logButton","timestamp":"2024-10-03T21:45:26.001Z"}
+{"action":"custom task","taskDescription":"Trabajo de blockchain","timestamp":"2024-10-03T21:58:25.871Z"}
+{"action":"click","element":"logButton","timestamp":"2024-10-03T22:19:13.967Z"}
+{"action":"click","element":"logButton","timestamp":"2024-10-03T22:19:23.567Z"}
+{"action":"Entrada","element":"logInteraction1","timestamp":"2024-10-03T22:19:29.079Z"}
+{"action":"Ver Blockchain","element":"viewBlockchain","timestamp":"2024-10-03T22:26:48.119Z"}
+{"action":"Ver Blockchain","element":"viewBlockchain","timestamp":"2024-10-03T22:27:32.551Z"}
+{"action":"Ver Blockchain","element":"viewBlockchain","timestamp":"2024-10-03T22:27:46.310Z"}
+{"action":"click","element":"logButton","timestamp":"2024-10-03T22:34:50.006Z"}
+{"action":"click","element":"logButton","timestamp":"2024-10-03T22:37:22.911Z"}
+{"action":"click","element":"logButton","timestamp":"2024-10-03T22:40:30.934Z"}
+{"action":"click","element":"logButton","timestamp":"2024-10-03T22:43:48.582Z"}
+{"action":"custom task","taskDescription":"trabajo blockchain","timestamp":"2024-10-03T22:43:54.622Z"}
+{"action":"click","element":"logButton","timestamp":"2024-10-03T22:55:49.205Z"}
+{"action":"click","element":"logButton","timestamp":"2024-10-03T22:55:49.326Z"}
+{"action":"click","element":"logButton","timestamp":"2024-10-03T22:55:49.454Z"}
+{"action":"click","element":"logButton","timestamp":"2024-10-03T22:56:20.085Z"}
+{"action":"click","element":"logButton","timestamp":"2024-10-03T22:56:20.230Z"}
+{"action":"click","element":"logButton","timestamp":"2024-10-03T22:56:20.366Z"}
+{"action":"custom_task","element":"dasdas","timestamp":"2024-10-03T22:56:22.359Z"}
+{"action":"custom_task","element":"dasdas","timestamp":"2024-10-03T22:56:22.526Z"}
+{"action":"click","element":"logButton","timestamp":"2024-10-03T23:03:47.078Z"}
+{"action":"custom_task","element":"Trabajo de blockchain","timestamp":"2024-10-03T23:03:54.685Z"}
+{"action":"click","element":"logButton","timestamp":"2024-10-03T23:12:48.397Z"}
+{"action":"Interacción general","element":"logButton","timestamp":"2024-10-03T23:17:58.724Z"}
+{"action":"Interacción general","element":"logButton","timestamp":"2024-10-03T23:18:09.845Z"}
+{"action":"Interacción general","element":"logButton","timestamp":"2024-10-03T23:18:43.101Z"}
+{"action":"Interacción general","element":"logButton","timestamp":"2024-10-03T23:20:23.341Z"}
+{"action":"click","element":"logButton","timestamp":"2024-10-03T23:21:49.189Z"}
+{"action":"custom_task","element":"","timestamp":"2024-10-03T23:22:03.396Z"}
+{"action":"custom_task","element":"dasd","timestamp":"2024-10-03T23:22:05.599Z"}
+{"action":"click","element":"logButton","timestamp":"2024-10-03T23:25:50.052Z"}
+{"action":"customTask","element":"","timestamp":"2024-10-03T23:25:51.021Z"}
+{"action":"customTask","element":"dasd","timestamp":"2024-10-03T23:25:52.884Z"}
+{"action":"click","element":"logInteraction2","timestamp":"2024-10-03T23:25:54.365Z"}
+{"action":"click","element":"logButton","timestamp":"2024-10-03T23:27:21.580Z"}
+{"action":"Labor","element":"logInteraction1","timestamp":"2024-10-03T23:27:22.068Z"}
+{"action":"click","element":"logButton","timestamp":"2024-10-03T23:32:04.845Z"}
+{"action":"customTask","element":"","timestamp":"2024-10-03T23:32:22.037Z"}
+{"action":"click","element":"logButton","timestamp":"2024-10-03T23:32:22.294Z"}
+{"action":"interacción general","element":"Botón de Registrar Interacción General","timestamp":"2024-10-03T23:34:23.868Z"}
+{"action":"tarea personalizada","element":"dsad","timestamp":"2024-10-03T23:34:25.844Z"}
+{"action":"labor","element":"Registrar Labor","timestamp":"2024-10-03T23:34:28.557Z"}
+{"action":"interacción general","element":"Botón de Registrar Interacción General","timestamp":"2024-10-03T23:37:34.156Z"}
+{"action":"tarea personalizada","element":"adas","timestamp":"2024-10-03T23:37:35.572Z"}
+{"action":"interacción general","element":"Botón de Registrar Interacción General","timestamp":"2024-10-03T23:40:21.270Z"}
+{"action":"Registrar Labor","element":"Botón de Registrar Labor","timestamp":"2024-10-03T23:40:22.180Z"}
+{"action":"tarea personalizada","element":"sad","timestamp":"2024-10-03T23:40:23.637Z"}
+{"action":"Registrar Tarea del Dia","element":"logInteraction2","timestamp":"2024-10-03T23:47:05.324Z"}
+{"action":"Registrar Tarea del Dia","element":"logInteraction2","timestamp":"2024-10-03T23:47:05.525Z"}
+{"action":"Registrar Reunión de Trabajo","element":"logInteraction4","timestamp":"2024-10-03T23:47:05.684Z"}
+{"action":"Registrar Tarea del Dia","element":"logInteraction2","timestamp":"2024-10-03T23:47:13.573Z"}
+{"action":"Registrar Proyecto Iniciado","element":"logInteraction5","timestamp":"2024-10-03T23:47:13.988Z"}
+{"action":"Interacción General","timestamp":"2024-10-03T23:48:01.931Z"}
+{"action":"Tarea Personalizada","element":"sads","timestamp":"2024-10-03T23:48:04.172Z"}
+{"action":"Tarea Personalizada","element":"cielo","timestamp":"2024-10-03T23:48:42.987Z"}
+{"action":"Interacción General","timestamp":"2024-10-03T23:48:50.195Z"}
+{"action":"Tarea Personalizada","element":"tarea","timestamp":"2024-10-03T23:50:33.300Z"}
+{"action":"Interacción General","timestamp":"2024-10-03T23:50:37.700Z"}
+{"action":"Interacción General","timestamp":"2024-10-03T23:55:22.886Z"}
+{"action":"Tarea del Día","timestamp":"2024-10-03T23:55:24.196Z"}
+{"action":"Tarea Personalizada","element":"tarea","timestamp":"2024-10-03T23:55:31.811Z"}
+{"action":"Registrar ID","element":"cielo","timestamp":"2024-10-03T23:55:35.740Z"}
+{"action":"Interacción General","timestamp":"2024-10-03T23:56:57.500Z"}
+{"action":"Registrar ID","element":"","timestamp":"2024-10-03T23:57:07.060Z"}
+{"action":"Tarea Personalizada","element":"tarea","timestamp":"2024-10-03T23:57:08.995Z"}
+{"action":"Registrar ID","element":"miguel","timestamp":"2024-10-03T23:57:17.651Z"}
+{"action":"Interacción General","timestamp":"2024-10-03T23:59:38.364Z"}
+{"action":"Tarea Personalizada","element":"Papeleo","timestamp":"2024-10-03T23:59:53.307Z"}
+{"action":"Interacción General","timestamp":"2024-10-04T00:00:16.516Z"}
+{"action":"Tarea Personalizada","element":"Papeleo","timestamp":"2024-10-04T00:00:24.315Z"}
+{"action":"Registrar ID","element":"Pepe","timestamp":"2024-10-04T00:00:29.451Z"}
+{"action":"Tarea del Día","timestamp":"2024-10-04T00:00:51.827Z"}
+{"action":"Pausa de Trabajo","timestamp":"2024-10-04T00:00:58.580Z"}
+{"action":"Reunión de Trabajo","timestamp":"2024-10-04T00:01:21.979Z"}
+{"action":"Proyecto Iniciado","timestamp":"2024-10-04T00:02:15.371Z"}
+{"action":"Proyecto Finalizado","timestamp":"2024-10-04T00:02:22.675Z"}
+{"action":"Tarea Personalizada","element":"dsad","timestamp":"2024-10-04T00:09:54.563Z"}
+{"action":"Registrar ID","element":"sd","timestamp":"2024-10-04T00:09:55.826Z"}
+{"action":"Tarea del Día","timestamp":"2024-10-04T00:09:58.003Z"}
+{"action":"Pausa de Trabajo","timestamp":"2024-10-04T00:10:00.931Z"}
+{"action":"Reunión de Trabajo","timestamp":"2024-10-04T00:10:01.475Z"}
+{"action":"Proyecto Finalizado","timestamp":"2024-10-04T00:10:01.907Z"}
+{"action":"Interacción General","timestamp":"2024-10-04T00:10:03.075Z"}
+{"action":"Interacción General","timestamp":"2024-10-04T00:32:28.186Z"}
+{"action":"Tarea Personalizada","element":"papeleo","timestamp":"2024-10-04T00:32:40.707Z"}
+{"action":"Registrar ID","element":"miguel","timestamp":"2024-10-04T00:32:51.346Z"}
+{"action":"Tarea del Día","timestamp":"2024-10-04T00:33:01.394Z"}
+{"action":"Pausa de Trabajo","timestamp":"2024-10-04T00:33:38.618Z"}
+{"action":"Reunión de Trabajo","timestamp":"2024-10-04T00:33:41.770Z"}
+{"action":"Proyecto Iniciado","timestamp":"2024-10-04T00:33:45.930Z"}
+{"action":"Proyecto Finalizado","timestamp":"2024-10-04T00:33:47.746Z"}
+{"action":"Interacción General","timestamp":"2024-10-04T00:44:30.473Z"}
+{"action":"Tarea Personalizada","element":"pop","timestamp":"2024-10-04T00:44:51.665Z"}
+{"user":"e","action":"Hora de ingreso","element":"Ingreso","timestamp":"2024-10-04T00:53:18.170Z"}
+{"user":"e","action":"Tarea personalizada","element":"dsa","timestamp":"2024-10-04T00:53:22.842Z"}
+{"user":"e","action":"Identificación de usuario","element":"ddsa","timestamp":"2024-10-04T00:53:26.658Z"}
+{"user":"e","action":"Trabajo del día","element":"dsa","timestamp":"2024-10-04T00:53:28.098Z"}
+{"user":"e","action":"Pausa de trabajo","element":"Pausa","timestamp":"2024-10-04T00:53:29.066Z"}
+{"user":"e","action":"Reanudación de trabajo","element":"Reanudado","timestamp":"2024-10-04T00:53:30.242Z"}
+{"user":"pop","action":"Hora de ingreso","element":"Ingreso","timestamp":"2024-10-04T00:54:43.393Z"}
+{"user":"pop","action":"Tarea personalizada","element":"dasd","timestamp":"2024-10-04T00:54:47.113Z"}
+{"user":"pop","action":"Identificación de usuario","element":"dsasa","timestamp":"2024-10-04T00:54:48.753Z"}
+{"user":"pop","action":"Trabajo del día","element":"sad","timestamp":"2024-10-04T00:54:49.859Z"}
+{"user":"pop","action":"Pausa de trabajo","element":"Pausa","timestamp":"2024-10-04T00:54:50.602Z"}
+{"user":"pop","action":"Reanudación de trabajo","element":"Reanudado","timestamp":"2024-10-04T00:54:51.532Z"}
+{"user":"pop","action":"Trabajo iniciado","element":"Iniciado","timestamp":"2024-10-04T00:54:52.378Z"}
+{"user":"pop","action":"Trabajo finalizado","element":"Finalizado","timestamp":"2024-10-04T00:54:52.794Z"}
+{"user":"alvaro","action":"Hora de ingreso","element":"Ingreso","timestamp":"2024-10-04T00:55:39.753Z"}
+{"user":"alvaro","action":"Tarea personalizada","element":"dsad","timestamp":"2024-10-04T00:55:42.570Z"}
+{"user":"alvaro","action":"Identificación de usuario","element":"dsad","timestamp":"2024-10-04T00:55:43.825Z"}
+{"user":"alvaro","action":"Trabajo del día","element":"sadsa","timestamp":"2024-10-04T00:55:45.193Z"}

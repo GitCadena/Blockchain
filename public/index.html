@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blockchain WEB - Auditoría de Empleados</title>
+
+  <!-- Agregar Bootstrap -->   
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .block {
+      border: 1px solid #e0e0e0;
+      padding: 15px;
+      margin: 10px 0;
+      background-color: #fdfdfd;
+      border-radius: 8px;
+    }
+
+    .block p {
+      margin: 5px 0;
+    }
+
+    .buttons-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+
+    button, input {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: none;
+      color: white;
+      background-color: #007bff;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+      transform: scale(1.05);
+    }
+
+    input[type="text"], input[type="date"], input[type="password"] {
+      background-color: #f8f9fa;
+      color: #495057;
+      border: 1px solid #ced4da;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    #appContent {
+      display: none;
+    }
+    
+    #loginForm {
+      display: block;
+    }
+
+    #logoutButton {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Bienvenido de nuevo</h1>
+    <h2>Auditoría de Empleados</h2>
+
+    <!-- Sección de inicio de sesión -->
+    <div id="loginForm">
+      <h2>Iniciar Sesión</h2>
+      <input type="text" id="username" placeholder="Usuario" required aria-label="Nombre de usuario" />
+      <input type="password" id="password" placeholder="Contraseña" required aria-label="Contraseña" />
+      <button id="loginButton">Iniciar Sesión</button>
+      <div id="loginError" class="text-danger"></div>
+    </div>
+
+    <!-- Sección de contenido de la aplicación -->
+    <div id="appContent">
+      <div class="buttons-container">
+        <button id="logButton">Registrar Hora de ingreso</button>
+        <button id="customLogButton">Registrar Tarea Personalizada</button>
+        <input type="text" id="customTask" placeholder="Describe la tarea...">
+        
+        <button id="logInteraction1">Identificate</button>
+        <input type="text" id="customID" placeholder="Identificate">
+        <button id="logInteraction2">Registrar Trabajo del Dia</button>
+        <input type="text" id="customtask2" placeholder="Que hizo?">
+        <button id="logInteraction3">Registrar Pausa de Trabajo</button>
+        <button id="logInteraction4">Registrar Reanudación de Trabajo</button>
+        <button id="logInteraction5">Registrar Trabajo Iniciado</button>
+        <button id="logInteraction6">Registrar Trabajo Finalizado</button>
+        
+        <!-- Contenedor de botones para el administrador -->
+        <div id="adminButtons" style="display: none;">
+          <button id="viewBlockchain">Ver Blockchain</button>
+        </div>
+      </div>
+
+      <!-- Botón de cerrar sesión -->
+      <button id="logoutButton">Cerrar Sesión</button>
+
+      <!-- Contenedor para mostrar el blockchain -->
+      <pre id="blockchainDisplay" class="mt-4"></pre>
+    </div>
+
+    <!-- Formulario de Registro -->
+    <div class="container mt-5" id="registerContainer">
+      <h2>Registrar Empleado</h2>
+      <form id="registerForm">
+        <input type="text" id="registerUsername" placeholder="Nombre de usuario" required>
+        <input type="password" id="registerPassword" placeholder="Contraseña" required>
+        <label>
+          <input type="checkbox" id="isAdmin"> Administrador
+        </label>
+        <button type="submit">Registrar</button>
+        <div id="registerError" class="text-danger"></div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    // Almacena usuarios registrados
+    const users = [
+      { username: 'admin', password: 'admin123', role: 'admin' }
+    ];
+
+    // Función para manejar el inicio de sesión
+    document.getElementById('loginButton').addEventListener('click', () => {
+      const username = document.getElementById('username').value;
+      const password = document.getElementById('password').value;
+
+      const user = users.find(user => user.username === username && user.password === password);
+      
+      if (user) {
+        localStorage.setItem('token', 'dummyToken'); // Agregar un token simulado
+        localStorage.setItem('username', username);  // Guardar el nombre de usuario en localStorage
+        localStorage.setItem('role', user.role);
+        showAppContent();
+      } else {
+        document.getElementById('loginError').innerText = 'Usuario o contraseña incorrectos';
+      }
+    });
+
+    // Mostrar el contenido de la aplicación
+    function showAppContent() {
+      const token = localStorage.getItem('token');
+      const userRole = localStorage.getItem('role');
+    
+      if (token) {
+        document.getElementById('loginForm').style.display = 'none';
+        document.getElementById('appContent').style.display = 'block';
+        document.getElementById('registerContainer').style.display = 'none';
+        document.getElementById('logoutButton').style.display = 'block';
+    
+        if (userRole === 'admin') {
+          document.getElementById('adminButtons').style.display = 'block';
+        } else {
+          document.getElementById('adminButtons').style.display = 'none';
+        }
+      }
+    }
+
+    // Función para registrar una interacción
+    function registerInteraction(action, element) {
+      const username = localStorage.getItem('username'); // Obtener el usuario actual
+      const log = {
+        user: username,  // Agregar el nombre de usuario al log
+        action: action,
+        element: element,
+        timestamp: new Date().toISOString()
+      };
+
+      // Enviar la interacción al backend
+      fetch('/logs', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(log)
+      })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Error al registrar la interacción');
+        }
+        return response.json();
+      })
+      .then(data => {
+        console.log('Interacción registrada:', data);
+        fetchBlockchain(); // Actualizar el blockchain después de registrar la interacción
+      })
+      .catch(error => {
+        console.error('Error al registrar la interacción:', error);
+      });
+    }
+
+    // Función para mostrar el blockchain
+    function fetchBlockchain() {
+      fetch('/blockchain')
+        .then(response => response.json())
+        .then(data => {
+          document.getElementById('blockchainDisplay').innerText = JSON.stringify(data, null, 2);
+        })
+        .catch(error => {
+          console.error('Error al obtener el blockchain:', error);
+        });
+    }
+
+    // Evento para cerrar sesión
+    document.getElementById('logoutButton').addEventListener('click', () => {
+      localStorage.removeItem('token');
+      localStorage.removeItem('role');
+      localStorage.removeItem('username');
+      document.getElementById('appContent').style.display = 'none';
+      document.getElementById('loginForm').style.display = 'block';
+      document.getElementById('logoutButton').style.display = 'none';
+      window.location.reload();
+    });
+
+    // Evento para mostrar el blockchain solo cuando lo pida el admin
+    document.getElementById('viewBlockchain').addEventListener('click', () => {
+      fetchBlockchain();
+    });
+
+    // Eventos para los botones de registrar acciones
+    document.getElementById('logButton').addEventListener('click', () => registerInteraction('Hora de ingreso', 'Ingreso'));
+    document.getElementById('customLogButton').addEventListener('click', () => {
+      const task = document.getElementById('customTask').value;
+      registerInteraction('Tarea personalizada', task);
+    });
+
+    // Eventos para las otras interacciones
+    document.getElementById('logInteraction1').addEventListener('click', () => {
+      const id = document.getElementById('customID').value;
+      registerInteraction('Identificación de usuario', id);
+    });
+
+    document.getElementById('logInteraction2').addEventListener('click', () => {
+      const task2 = document.getElementById('customtask2').value;
+      registerInteraction('Trabajo del día', task2);
+    });
+
+    document.getElementById('logInteraction3').addEventListener('click', () => registerInteraction('Pausa de trabajo', 'Pausa'));
+    document.getElementById('logInteraction4').addEventListener('click', () => registerInteraction('Reanudación de trabajo', 'Reanudado'));
+    document.getElementById('logInteraction5').addEventListener('click', () => registerInteraction('Trabajo iniciado', 'Iniciado'));
+    document.getElementById('logInteraction6').addEventListener('click', () => registerInteraction('Trabajo finalizado', 'Finalizado'));
+
+    // Función para manejar el registro de nuevos empleados
+    document.getElementById('registerForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const username = document.getElementById('registerUsername').value;
+      const password = document.getElementById('registerPassword').value;
+      const isAdmin = document.getElementById('isAdmin').checked;
+
+      const newUser = { username, password, role: isAdmin ? 'admin' : 'user' };
+      users.push(newUser);
+      alert('Empleado registrado con éxito');
+      document.getElementById('registerForm').reset();
+    });
+
+    // Mostrar contenido si el usuario ya está autenticado
+    window.onload = showAppContent;
+  </script>
+</body>
+</html>
